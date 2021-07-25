@@ -130,7 +130,7 @@ img{
     border: 3px solid #626262;
     border-radius: 15px ;
     transition: border 0.3s, color 0.3s, all 0.3s;
-    width: 50%;
+    width: 100%;
     max-width: fit-content;
 }
 
@@ -165,7 +165,7 @@ p{
     font-family: fab;
     font-size: 3rem;
     margin-left: 20px;
-    transition: all 0.8s;
+    transition: all 0.5s;
 }
 
 .fa.facebook::before{
@@ -179,7 +179,7 @@ p{
     content: "";
 }
 .fa.insta:hover{
-    color: rgb(243, 107, 255);
+    color: rgb(196, 107, 255);
 }
 
 .fa.twitter::before{
