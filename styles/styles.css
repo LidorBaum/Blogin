@@ -281,9 +281,9 @@ img{
     }
 }
 
-@media(max-width: 1923px) {
+@media(max-width: 1060px) {
     .container {
-        max-width: 800px;
+        max-width: 1000px;
     }
     /* .cards-container>*:not(:first-child):nth-child(odd) {
         padding-inline-start: 15px;
