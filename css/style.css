@@ -18,6 +18,10 @@
     font-family: lato-reg;
     src: url(../fonts/lato/Lato-Regular.ttf);
 }
+@font-face {
+    font-family: fab;
+    src: url(../fonts/fa/fab.ttf);
+}
 
 /* BASE */
 
@@ -155,6 +159,48 @@ p{
 .card-content{
     display: flex;
     flex-direction: column;
+}
+
+.fa{
+    font-family: fab;
+    font-size: 3rem;
+    margin-left: 20px;
+    transition: all 0.8s;
+}
+
+.fa.facebook::before{
+    content: "";
+}
+.fa.facebook:hover{
+    color: rgb(0, 140, 255);
+}
+
+.fa.insta::before{
+    content: "";
+}
+.fa.insta:hover{
+    color: rgb(243, 107, 255);
+}
+
+.fa.twitter::before{
+    content: "";
+}
+.fa.twitter:hover{
+    color: rgb(94, 177, 255);
+}
+.fa.linkedin::before{
+    content: "";
+}
+.fa.linkedin:hover{
+    color: rgb(40, 53, 243);
+}
+
+.inline-flex{
+    display: inline-flex;
+}
+
+.flex-center{
+    align-items: center;
 }
 
 /* .continue-btn:hover{
