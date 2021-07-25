@@ -148,6 +148,10 @@ img{
     margin-bottom: 80px;
 }
 
+p{
+    flex: 1;
+}
+
 .card-content{
     display: flex;
     flex-direction: column;
